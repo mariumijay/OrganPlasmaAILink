@@ -5,6 +5,7 @@ __pycache__/
 *.egg-info/
 venv/
 .venv/
+venv_new/
 
 # Node
 node_modules/
@@ -12,6 +13,8 @@ node_modules/
 
 # Env
 .env
+.env.local
+.env.*.local
 !.env.example
 
 # IDE
@@ -29,3 +32,9 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Scratch & debug scripts (contain hardcoded keys)
+scratch_*.py
+debug_*.py
+*/scratch/
+artifacts/
