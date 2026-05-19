@@ -1,0 +1,7 @@
+﻿.\venv\Scripts\python.exe : No Python at 'C:\Users\nasee\AppData\Local\Programs\Python\Python39\python.exe'
+At line:1 char:1
++ .\venv\Scripts\python.exe main.py > startup_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No Python at 'C...n39\python.exe':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
